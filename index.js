@@ -1,8 +1,8 @@
 //$(document).ready(function (){
 });
 $.ajax({
-  url:'jquery-3.1.0.min.js'
-  dataType: '',
+  url:''
+  dataType: 'JSON',
   data: {
     api_key: ''
   }
