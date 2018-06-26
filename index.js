@@ -8,7 +8,7 @@ $.ajax({
   }
   success: resp => {
        url = resp.data["0"].embed_url
-       $('#lonelyDiv').html(`<iframe src=${url}>`)
+       $('#details').html(`<iframe src=${url}>`)
 })
 function searchRepositories(searchTerm) {
   
