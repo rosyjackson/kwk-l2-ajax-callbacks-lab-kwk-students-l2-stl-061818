@@ -10,6 +10,5 @@ $.ajax({
        url = resp.data[""].embed_url
        $('#details').html(`<iframe src=${url}>`)
 })
-function searchRepositories(searchTerm) {
+//function searchRepositories(searchTerm) 
   
-}
