@@ -7,7 +7,7 @@ $.ajax({
     api_key: ''
   }
   success: resp => {
-       url = resp.data["0"].embed_url
+       url = resp.data[""].embed_url
        $('#details').html(`<iframe src=${url}>`)
 })
 function searchRepositories(searchTerm) {
